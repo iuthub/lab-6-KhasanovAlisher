@@ -8,7 +8,7 @@
 	$match="Not checked yet.";
 
 if ($_SERVER["REQUEST_METHOD"]=="POST") {
-	$pattern=$_POST["//"];
+	$pattern=$_POST["pattern"];
 	$text=$_POST["text"];
 	$replaceText=$_POST["replaceText"];
 
